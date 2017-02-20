@@ -1,18 +1,18 @@
 # jQuery Zoom SVG Plugin
 
 # Purpose
-This plugins is meant to pan and zooman an SVG object inside a div container.
+This plugins is meant to pan and zoom in/out an SVG object inside a div container.
 This is particulary usefull for SVG Maps.
-Based on jQuery to ensure multi-browsers support.
+This plugin is based on jQuery to ensure multi-browsers support.
 
 
 # Requirements
-It has been qualifyed on jQuery 3.1, Jquery UI 1.2 (draggable) and jQuery Mousewheel 3.1
+It has been qualifyed on jQuery 3.1, Jquery UI 1.2 (draggable) and jQuery mousewheel 3.1
 
 # Install
 Copy the jquery.zoom-svg.min.js and zoom-svg.min.css dist files in your lib folder.
 
- # Loading
+# Loading
 Simply load the scripts and css files.
 
 ```sh
@@ -24,9 +24,9 @@ Simply load the scripts and css files.
 	<link rel="stylesheet" type="text/css" href="../dist/zoom-svg.min.css">
 ```
 
-In the HTML File, create a container div with the class zoom-svg-container.
+In your HTML File, create a div container with the class zoom-svg-container.
 Add your svg inside. Make sure the SVG contains a viewBox otherwise it won't work.
-Add 3 divs for the zoom-in, zoom-out and zoom-rst as described below.
+Add 3 divs for the zoom-in, zoom-out and zoom-rst buttons as described below.
 
 ```sh
 	<div class="zoom-svg-container">
@@ -59,3 +59,7 @@ zoomSvg.options = {
 # Test 
 This was tested on Chrome 56 and IE 11
 You can run the test/index.html for playing.
+
+ENJOY !
+Handcrafted with heart.
+
